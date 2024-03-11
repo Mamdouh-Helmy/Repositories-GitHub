@@ -88,7 +88,7 @@ body{
 .repo-box span{
     background-color: #009688;
 }
-.show-data span{
+.show-data .title{
     color: #e91e63;
 }
 @media (max-width: 807px) {
