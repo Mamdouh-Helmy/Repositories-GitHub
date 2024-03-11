@@ -88,3 +88,31 @@ body{
 .repo-box span{
     background-color: #009688;
 }
+.show-data span{
+    color: #e91e63;
+}
+@media (max-width: 807px) {
+    .repos-container {
+        width: 100%;
+    }
+    .repos-container .get-repos {
+        flex-direction: column;
+    }
+    .repos-container .get-repos .get-button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .repos-container .get-repos input {
+        font-size: 16px;
+    }
+}
+@media (max-width: 400px) {
+    
+    .repo-box a,
+    .repo-box span {
+        font-size: 12px;
+        width: auto;
+        padding: 2px 6px;
+    }
+}
